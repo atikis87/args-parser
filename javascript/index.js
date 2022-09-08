@@ -1,8 +1,8 @@
 import Schema from "./src/Schema/Schema.js";
 import Flag from "./src/Schema/Flag/Flag.js";
+import BooleanType from "./src/Schema/Flag/Types/BooleanType.js";
 
 const userInput = '-l -p 8080 -d /usr/logs';
-
 
 const schema = new Schema();
 schema.addFlags([
