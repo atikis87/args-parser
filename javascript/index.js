@@ -1,6 +1,8 @@
 import Schema from "./src/Schema/Schema.js";
 import Flag from "./src/Schema/Flag/Flag.js";
 import BooleanType from "./src/Schema/Flag/Types/BooleanType.js";
+import IntegerType from "./src/Schema/Flag/Types/IntegerType.js";
+import StringType from "./src/Schema/Flag/Types/StringType.js";
 
 const userInput = '-l -p 8080 -d /usr/logs';
 
